@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "mytrash",
+    "public": "'/Users/umar/Documents/TO-DO'",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
